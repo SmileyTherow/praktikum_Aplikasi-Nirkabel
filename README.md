@@ -1,15 +1,9 @@
 # apnir_genap2025_ahmadzidan
-# Praktikum Flutter Sesi 4 - Aplikasi Nirkabel
-
-## Data Diri
-- **Nama**: Ahmad Zidan Tamimy
-- **NIM**: [Nomor Induk Mahasiswa]
-- **Kelas**: Reguler Pagi
-- **Matakuliah**: Aplikasi Nirkabel
+## Praktikum Flutter Sesi 4 - Aplikasi Nirkabel
 
 ---
 
-## Deskripsi Proyek
+### Deskripsi Proyek
 Aplikasi Flutter yang mendemonstrasikan:
 1. Pengelolaan paket dan dependensi
 2. HTTP request ke API eksternal
@@ -18,9 +12,9 @@ Aplikasi Flutter yang mendemonstrasikan:
 
 ---
 
-## Tugas yang Diselesaikan
+### Tugas yang Diselesaikan
 
-### ✅ Tugas 1: Modifikasi API (HTTP)
+#### ✅ Tugas 1: Modifikasi API (HTTP)
 - Mengganti API endpoint menjadi `/users` dari JSONPlaceholder
 - Menampilkan minimal 2 field data:
   - **Nama** (name field)
@@ -31,7 +25,7 @@ Aplikasi Flutter yang mendemonstrasikan:
 
 ---
 
-### ✅ Tugas 2: Modifikasi Provider
+#### ✅ Tugas 2: Modifikasi Provider
 - Menambahkan fungsi **Increment (+)** untuk menambah nilai counter
 - Menambahkan fungsi **Decrement (-)** untuk mengurangi nilai counter
 - Menambahkan fungsi **Reset** untuk reset ke 0
@@ -42,7 +36,7 @@ Aplikasi Flutter yang mendemonstrasikan:
 
 ---
 
-### ✅ Tugas 3: Penyimpanan Data Lokal
+#### ✅ Tugas 3: Penyimpanan Data Lokal
 - Menambahkan **TextField** untuk input nama user
 - Menyimpan nama ke dalam **local storage** menggunakan SharedPreferences
 - Fitur:
@@ -53,7 +47,7 @@ Aplikasi Flutter yang mendemonstrasikan:
 
 ---
 
-### ✅ Tugas 4: UI Improvement
+#### ✅ Tugas 4: UI Improvement
 - Menggunakan **Card** sebagai pembungkus komponen utama
 - Menggunakan **Container** untuk styling tambahan
 - **Padding** konsisten di semua section (16.0)
@@ -69,7 +63,7 @@ Aplikasi Flutter yang mendemonstrasikan:
 
 ---
 
-## Struktur Project
+### Struktur Project
 lib/
 ├── main.dart
 ├── providers/
@@ -82,7 +76,7 @@ lib/
 
 ---
 
-## Dependensi yang Digunakan
+### Dependensi yang Digunakan
 
 ```yaml
 dependencies:
